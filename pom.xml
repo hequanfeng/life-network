@@ -22,7 +22,8 @@
 	<!--引入子模块-->
 	<modules>
 		<module>life-network-common</module>
-        <module>life-network-system</module>
+		<module>life-network-app</module>
+        <module>life-network-web</module>
 	</modules>
 
 	<dependencyManagement>

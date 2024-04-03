@@ -1,0 +1,30 @@
+/* Button */
+@mixin Button($main, $c1, $c2) {
+	color: set-color($main);
+	background: set-color($c1);
+	border-color: set-color($c2);
+}
+
+/* Radio、Checkbox */
+@mixin RadioCheckbox($name) {
+	background-color: set-color($name);
+	border-color: set-color($name);
+}
+
+/* Tag  */
+@mixin Tag($main, $c1, $c2) {
+	color: set-color($main);
+	background-color: set-color($c1);
+	border-color: set-color($c2);
+}
+@mixin TagDark($main, $c1) {
+	color: set-color($main);
+	background-color: set-color($c1);
+}
+
+/* Alert  */
+@mixin Alert($main, $c1, $c2) {
+	color: set-color($main);
+	background: set-color($c1);
+	border: 1px solid set-color($c2);
+}

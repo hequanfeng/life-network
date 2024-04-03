@@ -1,0 +1,142 @@
+
+/* Define initial color
+------------------------------- */
+$--color-primary: #0e88ec !default;
+$--color-whites: #ffffff !default;
+$--color-primary-light-1: mix($--color-whites, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($--color-whites, $--color-primary, 20%) !default;
+$--color-primary-light-3: mix($--color-whites, $--color-primary, 30%) !default;
+$--color-primary-light-4: mix($--color-whites, $--color-primary, 40%) !default;
+$--color-primary-light-5: mix($--color-whites, $--color-primary, 50%) !default;
+$--color-primary-light-6: mix($--color-whites, $--color-primary, 60%) !default;
+$--color-primary-light-7: mix($--color-whites, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($--color-whites, $--color-primary, 80%) !default;
+$--color-primary-light-9: mix($--color-whites, $--color-primary, 90%) !default;
+$--color-success: #329700 !default;
+$--color-success-light-1: mix($--color-whites, $--color-success, 10%) !default;
+$--color-success-light-2: mix($--color-whites, $--color-success, 20%) !default;
+$--color-success-light-3: mix($--color-whites, $--color-success, 30%) !default;
+$--color-success-light-4: mix($--color-whites, $--color-success, 40%) !default;
+$--color-success-light-5: mix($--color-whites, $--color-success, 50%) !default;
+$--color-success-light-6: mix($--color-whites, $--color-success, 60%) !default;
+$--color-success-light-7: mix($--color-whites, $--color-success, 70%) !default;
+$--color-success-light-8: mix($--color-whites, $--color-success, 80%) !default;
+$--color-success-light-9: mix($--color-whites, $--color-success, 90%) !default;
+$--color-info: #909399 !default;
+$--color-info-light-1: mix($--color-whites, $--color-info, 10%) !default;
+$--color-info-light-2: mix($--color-whites, $--color-info, 20%) !default;
+$--color-info-light-3: mix($--color-whites, $--color-info, 30%) !default;
+$--color-info-light-4: mix($--color-whites, $--color-info, 40%) !default;
+$--color-info-light-5: mix($--color-whites, $--color-info, 50%) !default;
+$--color-info-light-6: mix($--color-whites, $--color-info, 60%) !default;
+$--color-info-light-7: mix($--color-whites, $--color-info, 70%) !default;
+$--color-info-light-8: mix($--color-whites, $--color-info, 80%) !default;
+$--color-info-light-9: mix($--color-whites, $--color-info, 90%) !default;
+$--color-warning: #e6a23c !default;
+$--color-warning-light-1: mix($--color-whites, $--color-warning, 10%) !default;
+$--color-warning-light-2: mix($--color-whites, $--color-warning, 20%) !default;
+$--color-warning-light-3: mix($--color-whites, $--color-warning, 30%) !default;
+$--color-warning-light-4: mix($--color-whites, $--color-warning, 40%) !default;
+$--color-warning-light-5: mix($--color-whites, $--color-warning, 50%) !default;
+$--color-warning-light-6: mix($--color-whites, $--color-warning, 60%) !default;
+$--color-warning-light-7: mix($--color-whites, $--color-warning, 70%) !default;
+$--color-warning-light-8: mix($--color-whites, $--color-warning, 80%) !default;
+$--color-warning-light-9: mix($--color-whites, $--color-warning, 90%) !default;
+$--color-danger: #f56c6c !default;
+$--color-danger-light-1: mix($--color-whites, $--color-danger, 10%) !default;
+$--color-danger-light-2: mix($--color-whites, $--color-danger, 20%) !default;
+$--color-danger-light-3: mix($--color-whites, $--color-danger, 30%) !default;
+$--color-danger-light-4: mix($--color-whites, $--color-danger, 40%) !default;
+$--color-danger-light-5: mix($--color-whites, $--color-danger, 50%) !default;
+$--color-danger-light-6: mix($--color-whites, $--color-danger, 60%) !default;
+$--color-danger-light-7: mix($--color-whites, $--color-danger, 70%) !default;
+$--color-danger-light-8: mix($--color-whites, $--color-danger, 80%) !default;
+$--color-danger-light-9: mix($--color-whites, $--color-danger, 90%) !default;
+
+$--bg-topBar: #11254A;
+$--bg-menuBar: #081428;
+$--bg-main: #ffffff;
+$--bg-columnsMenuBar: #545c64;
+$--bg-topBarColor: #606266;
+$--bg-menuBarColor: #eaeaea;
+
+/* 赋值给:root
+------------------------------- */
+:root {
+    --color-primary: #{$--color-primary};
+    --color-whites: #{$--color-whites};
+    --color-primary-light-1: #{$--color-primary-light-1};
+    --color-primary-light-2: #{$--color-primary-light-2};
+    --color-primary-light-3: #{$--color-primary-light-3};
+    --color-primary-light-4: #{$--color-primary-light-4};
+    --color-primary-light-5: #{$--color-primary-light-5};
+    --color-primary-light-6: #{$--color-primary-light-6};
+    --color-primary-light-7: #{$--color-primary-light-7};
+    --color-primary-light-8: #{$--color-primary-light-8};
+    --color-primary-light-9: #{$--color-primary-light-9};
+    --color-success: #{$--color-success};
+    --color-success-light-1: #{$--color-success-light-1};
+    --color-success-light-2: #{$--color-success-light-2};
+    --color-success-light-3: #{$--color-success-light-3};
+    --color-success-light-4: #{$--color-success-light-4};
+    --color-success-light-5: #{$--color-success-light-5};
+    --color-success-light-6: #{$--color-success-light-6};
+    --color-success-light-7: #{$--color-success-light-7};
+    --color-success-light-8: #{$--color-success-light-8};
+    --color-success-light-9: #{$--color-success-light-9};
+    --color-info: #{$--color-info};
+    --color-info-light-1: #{$--color-info-light-1};
+    --color-info-light-2: #{$--color-info-light-2};
+    --color-info-light-3: #{$--color-info-light-3};
+    --color-info-light-4: #{$--color-info-light-4};
+    --color-info-light-5: #{$--color-info-light-5};
+    --color-info-light-6: #{$--color-info-light-6};
+    --color-info-light-7: #{$--color-info-light-7};
+    --color-info-light-8: #{$--color-info-light-8};
+    --color-info-light-9: #{$--color-info-light-9};
+    --color-warning: #{$--color-warning};
+    --color-warning-light-1: #{$--color-warning-light-1};
+    --color-warning-light-2: #{$--color-warning-light-2};
+    --color-warning-light-3: #{$--color-warning-light-3};
+    --color-warning-light-4: #{$--color-warning-light-4};
+    --color-warning-light-5: #{$--color-warning-light-5};
+    --color-warning-light-6: #{$--color-warning-light-6};
+    --color-warning-light-7: #{$--color-warning-light-7};
+    --color-warning-light-8: #{$--color-warning-light-8};
+    --color-warning-light-9: #{$--color-warning-light-9};
+    --color-danger: #{$--color-danger};
+    --color-danger-light-1: #{$--color-danger-light-1};
+    --color-danger-light-2: #{$--color-danger-light-2};
+    --color-danger-light-3: #{$--color-danger-light-3};
+    --color-danger-light-4: #{$--color-danger-light-4};
+    --color-danger-light-5: #{$--color-danger-light-5};
+    --color-danger-light-6: #{$--color-danger-light-6};
+    --color-danger-light-7: #{$--color-danger-light-7};
+    --color-danger-light-8: #{$--color-danger-light-8};
+    --color-danger-light-9: #{$--color-danger-light-9};
+    --bg-topBar: #{$--bg-topBar};
+    --bg-menuBar: #{$--bg-menuBar};
+    --bg-columnsMenuBar: #{$--bg-columnsMenuBar};
+    --bg-topBarColor: #{$--bg-topBarColor};
+    --bg-menuBarColor: #{$--bg-menuBarColor};
+    --el-border-color-lighter:#e5e5e5;
+    --el-border-color: rgb(184, 191, 194);
+    --el-bg-color:#F5FAFA;
+    --el-text-color-regular:#000;
+    --el-font-family: Arial,'Microsoft YaHei','微软雅黑','Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB',sans-serif;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    :root {
+        --el-font-size-base: 12px;
+    }
+    .el-form-item {
+        --font-size: 12px;
+    }
+    .el-message-box {
+        --el-messagebox-content-font-size:14px;
+        --el-messagebox-content-font-size:14px;
+    }
+}

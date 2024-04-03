@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noUnusedParameters":false,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "removeComments": true,
+    "baseUrl": "./",
+    
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": ["esnext", "dom"],
+    "types": ["element-plus/global"],
+    "skipLibCheck": true
+  },
+  "types": [ "vite/client" ],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/env.d.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

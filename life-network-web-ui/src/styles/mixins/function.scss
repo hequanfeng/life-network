@@ -1,0 +1,4 @@
+/* Color call function */
+@function set-color($key) {
+	@return var(--color-#{$key});
+}
